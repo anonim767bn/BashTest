@@ -23,7 +23,7 @@ do
     group2=$(($group2+1))
 done
 
-if [[ group1 -eq group2 ]]
+if [[ $group1 -eq $group2 ]]
 then
     echo "количество людей совпадает"
     exit 0
